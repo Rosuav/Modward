@@ -1,0 +1,35 @@
+Root
+	Ships
+		Sloop = 0
+			Stats
+				Defense = 5
+				Offense = 5
+				Support = 5
+				Mobility = 5
+				Speed = 5
+			cargo = 5
+			townSize = 1
+			minTier = 0
+			maxTier = 2
+	Quests
+		QuestDelivery
+			townSize = 1
+			reward = 500
+			xp = 2500
+			icon  = "Item - Crates"
+			target = "Neutral Town"
+			faction = 4
+		QuestMigrants
+			townSize = 2
+			reward = 500
+			xp = 2500
+			icon  = "Item - Crew1"
+			target = "Neutral Town"
+			faction = 3
+		QuestMigrants2
+			townSize = 2
+			reward = 500
+			xp = 2500
+			icon  = "Item - Crew2"
+			target = "Neutral Town"
+			faction = 2
